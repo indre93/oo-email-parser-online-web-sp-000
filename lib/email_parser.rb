@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse
-    parser = self.new
+    parser = emails.split(" ")
     parser.emails = emails
   end
 
