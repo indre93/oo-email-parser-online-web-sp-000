@@ -10,7 +10,7 @@ class EmailParser
     @emails = emails
   end
 
-  def parse
+  def parse(emails)
     parser = self.new
     parser.emails = emails
   end
