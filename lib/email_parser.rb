@@ -8,6 +8,7 @@ class EmailParser
 
   def parse(emails)
     parser = self.new
+    parser.emails = emails
   end
 
 end
