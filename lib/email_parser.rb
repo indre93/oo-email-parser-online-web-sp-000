@@ -10,4 +10,8 @@ class EmailParser
     @emails = emails
   end
 
+  def parse(emails)
+    parse = emails.split(", ", " ")
+  end
+
 end
