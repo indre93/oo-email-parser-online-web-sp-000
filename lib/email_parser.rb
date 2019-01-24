@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse(emails)
-    parser = emails.split(" ")
+    parser = @emails.split(" ")
 
   end
 
