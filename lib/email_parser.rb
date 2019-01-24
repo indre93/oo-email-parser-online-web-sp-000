@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse
-    emailparser = self.new
+    @emails = self.new
   end
 
 end
